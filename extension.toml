@@ -1,0 +1,24 @@
+id = "color-syntax-picker"
+name = "Color Syntax Picker"
+version = "0.1.0"
+schema_version = 1
+authors = ["Mike <system@betweenworlds.net>"]
+description = "Inline color swatches for non-CSS color syntaxes: $rrggbb, 0xrrggbb, ARGB 0xaarrggbb, and $rrggbbaa."
+repository = "https://github.com/yourname/zed-color-syntax-picker"
+
+[language_servers.color-syntax-picker]
+name = "Color Syntax Picker"
+# Attach to these built-in Zed languages. Add more language names as needed
+# (must match the `name` in each language's config.toml).
+languages = [
+  "TypeScript",
+  "TSX",
+  "JavaScript",
+  "JSX",
+  "Rust",
+  "C",
+  "C++",
+  "GLSL",
+  "Python",
+  "Go",
+]

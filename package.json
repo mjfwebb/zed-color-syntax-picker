@@ -1,0 +1,21 @@
+{
+  "name": "zed-color-syntax-picker",
+  "version": "0.1.0",
+  "description": "Language server powering the Zed Color Syntax Picker extension: inline color swatches for $rrggbb, 0xrrggbb, and ARGB 0xaarrggbb literals.",
+  "license": "MIT",
+  "private": true,
+  "main": "lib.js",
+  "bin": {
+    "color-syntax-picker-server": "server.js"
+  },
+  "files": [
+    "lib.js",
+    "server.js"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
